@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="cursor">
+
+        <script>
+
+            const cursor = document.querySelector('.cursor');
+
+            document.addEventListener('mousemove', e => {
+                cursor.setAttribute("style", "top: " + (e.pageY - scrollY - 10) + "px; left: " + (e.pageX - 10) + "px")
+            })
+
+
+        </script>
+
+
+
+
+
+
+    </div>
+
+    <section class="splash">
+        <div class="logo">
+            <img src="/assets/Logo.png" alt="Sam Peucker Design">
+        </div>
+        <a href="#workBody" class="arrowButton">
+            <svg id="arrowButton" width="43" height="43" viewBox="0 0 43 43" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62585 33.3741 0 21.5 0C9.62585 0 0 9.62585 0 21.5C0 33.3741 9.62585 43 21.5 43ZM32.337 20.6707C32.7772 21.0679 32.7772 21.7585 32.337 22.1557L25.2307 28.567C24.5874 29.1473 23.5608 28.6908 23.5608 27.8245V24.4132H11C10.4477 24.4132 10 23.9655 10 23.4132V19.4132C10 18.8609 10.4477 18.4132 11 18.4132H23.5608V15.002C23.5608 14.1356 24.5874 13.6791 25.2307 14.2595L32.337 20.6707Z"
+                    fill="#ADD600" />
+            </svg>
+        </a>
+    </section>
+
+
+
+
+
+
+
+    <section id="workBody">
+
+        <nav>
+            <div class="navLogo">
+                <span class="accent">Sam Peucker</span>
+                <span>Design</span>
+            </div>
+            <div class="navigation">
+                <a href="#" class="navItem work">Work</a>
+                <a href="#" class="navItem skills">Skills</a>
+                <a href="#" class="navItem about">About</a>
+                <a href="#" class="navItem contact accent">Contact
+                    <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10.0229" width="12.6874" height="4.62598" rx="1" transform="rotate(90 10.0229 0)"
+                            fill="#ADD600" />
+                        <path
+                            d="M8.45245 17.0333C8.05532 17.4735 7.3646 17.4735 6.96747 17.0333L2.53946 12.1252C1.95913 11.482 2.4156 10.4554 3.28195 10.4554L12.138 10.4554C13.0043 10.4554 13.4608 11.482 12.8805 12.1252L8.45245 17.0333Z"
+                            fill="#ADD600" />
+                    </svg>
+                    <div class="arrow"></div>
+                </a>
+                <div class="navSpacer"></div>
+            </div>
+        </nav>
+
+
+
+        <div class="container">
+            <div class="quote">
+                <span>Only 6 months</span>
+                <br>
+                <span class="accent">for all of this.</span>
+            </div>
+            <a href="#" data-index="0" data-modal-style="benefits" class="workCard ctwm">
+                <h3>Come trip with me</h3>
+                <h4>collaborative travel planning application</h4>
+                <div class="workSpacer"></div>
+                <svg class="arrow" width="21" height="14" viewBox="0 0 21 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.858963 5.48276C0.858963 4.86417 1.36043 4.3627 1.97902 4.3627H13.8849C14.5034 4.3627 15.0049 4.86417 15.0049 5.48276V8.42399C15.0049 9.04258 14.5034 9.54404 13.8849 9.54404H1.97902C1.36043 9.54404 0.858963 9.04258 0.858963 8.42399V5.48276Z"
+                        fill="#ADD600" />
+                    <path
+                        d="M19.8524 6.12339C20.3429 6.56795 20.3429 7.33867 19.8524 7.78324L14.3885 12.7351C13.6687 13.3876 12.5163 12.8768 12.5163 11.9052V2.0014C12.5163 1.02985 13.6687 0.519046 14.3885 1.17148L19.8524 6.12339Z"
+                        fill="#ADD600" />
+                </svg>
+            </a>
+            <a href="#" class="workCard taskie">
+                <h3>Taskie</h3>
+                <h4>collaborative household organisation</h4>
+                <div class="workSpacer"></div>
+                <svg class="arrow" width="21" height="14" viewBox="0 0 21 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.858963 5.48276C0.858963 4.86417 1.36043 4.3627 1.97902 4.3627H13.8849C14.5034 4.3627 15.0049 4.86417 15.0049 5.48276V8.42399C15.0049 9.04258 14.5034 9.54404 13.8849 9.54404H1.97902C1.36043 9.54404 0.858963 9.04258 0.858963 8.42399V5.48276Z"
+                        fill="#ADD600" />
+                    <path
+                        d="M19.8524 6.12339C20.3429 6.56795 20.3429 7.33867 19.8524 7.78324L14.3885 12.7351C13.6687 13.3876 12.5163 12.8768 12.5163 11.9052V2.0014C12.5163 1.02985 13.6687 0.519046 14.3885 1.17148L19.8524 6.12339Z"
+                        fill="#ADD600" />
+                </svg>
+            </a>
+
+            <a href="#" class="workCard aiatsis">
+                <h3>AIATSIS</h3>
+                <h4>government website redesign</h4>
+                <div class="workSpacer"></div>
+                <svg class="arrow" width="21" height="14" viewBox="0 0 21 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.858963 5.48276C0.858963 4.86417 1.36043 4.3627 1.97902 4.3627H13.8849C14.5034 4.3627 15.0049 4.86417 15.0049 5.48276V8.42399C15.0049 9.04258 14.5034 9.54404 13.8849 9.54404H1.97902C1.36043 9.54404 0.858963 9.04258 0.858963 8.42399V5.48276Z"
+                        fill="#ADD600" />
+                    <path
+                        d="M19.8524 6.12339C20.3429 6.56795 20.3429 7.33867 19.8524 7.78324L14.3885 12.7351C13.6687 13.3876 12.5163 12.8768 12.5163 11.9052V2.0014C12.5163 1.02985 13.6687 0.519046 14.3885 1.17148L19.8524 6.12339Z"
+                        fill="#ADD600" />
+                </svg>
+            </a>
+
+            <a href="#" class="workCard tbu">
+                <h3>The Big Umbrella</h3>
+                <h4>non for profit redesign</h4>
+                <img>
+                <div class="workSpacer"></div>
+                <svg class="arrow" width="21" height="14" viewBox="0 0 21 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.858963 5.48276C0.858963 4.86417 1.36043 4.3627 1.97902 4.3627H13.8849C14.5034 4.3627 15.0049 4.86417 15.0049 5.48276V8.42399C15.0049 9.04258 14.5034 9.54404 13.8849 9.54404H1.97902C1.36043 9.54404 0.858963 9.04258 0.858963 8.42399V5.48276Z"
+                        fill="#ADD600" />
+                    <path
+                        d="M19.8524 6.12339C20.3429 6.56795 20.3429 7.33867 19.8524 7.78324L14.3885 12.7351C13.6687 13.3876 12.5163 12.8768 12.5163 11.9052V2.0014C12.5163 1.02985 13.6687 0.519046 14.3885 1.17148L19.8524 6.12339Z"
+                        fill="#ADD600" />
+                </svg>
+            </a>
+
+            <a href="#" class="workCard future">
+                <h3>Future work</h3>
+                <h4>yet to complete</h4>
+                <img>
+                <div class="workSpacer"></div>
+                <svg class="arrow" width="21" height="14" viewBox="0 0 21 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.858963 5.48276C0.858963 4.86417 1.36043 4.3627 1.97902 4.3627H13.8849C14.5034 4.3627 15.0049 4.86417 15.0049 5.48276V8.42399C15.0049 9.04258 14.5034 9.54404 13.8849 9.54404H1.97902C1.36043 9.54404 0.858963 9.04258 0.858963 8.42399V5.48276Z"
+                        fill="#ADD600" />
+                    <path
+                        d="M19.8524 6.12339C20.3429 6.56795 20.3429 7.33867 19.8524 7.78324L14.3885 12.7351C13.6687 13.3876 12.5163 12.8768 12.5163 11.9052V2.0014C12.5163 1.02985 13.6687 0.519046 14.3885 1.17148L19.8524 6.12339Z"
+                        fill="#ADD600" />
+                </svg>
+
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

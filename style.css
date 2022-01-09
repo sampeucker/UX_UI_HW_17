@@ -1,0 +1,227 @@
+html, body {
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-weight: 300;
+    background-color: #16191A;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    cursor: none;
+ }
+
+
+/*---------------------------Splash Screen--------------------------*/
+
+.splash {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+}
+
+
+.arrowButton {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+        
+}
+
+.splash path {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+  }
+
+
+/*---------------------------------Nav-----------------------------*/
+#workBody {
+    overflow: auto;
+    height: 100vh;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 35px;
+}
+
+.navLogo {
+font-size: 24px;
+font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
+font-weight: 700px;
+line-height: 19px;
+letter-spacing: -0.105em;
+float: left;
+margin: 0px;
+padding-top: 30px;
+padding-left: 60px;
+}
+
+.navItem {
+    font-family: "HelviticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    line-height: 16px;
+    height: 25px;
+    margin: 0px 15px;
+    padding: 0px 5px;
+    
+}
+
+.contact svg {
+    padding: 0px;
+    float: right;
+    padding-left: 5px;
+}
+
+.navSpacer {
+    width: 8.33%;
+}
+
+
+.contact {
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.navItem:hover {
+    border-bottom: 2px solid white;
+    margin-bottom: -2px;
+}
+
+.contact:hover {
+    border-bottom: 2px solid #ADD600;
+    margin-bottom: -2px;
+}
+
+
+
+/*-------------------------Main--------------------------*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quote {
+font-size: 35px;
+font-style: normal;
+font-weight: 300;
+line-height: 35px;
+letter-spacing: 0.005em;
+text-align: left;
+margin-left: calc(16.6% + 26px);
+width: 100%;
+padding-top: 150px;
+padding-bottom: 50px;
+}
+
+.workCard {
+    height: 340px;
+    width: 220px;
+    background-color: #3A3A3E;
+    border-radius: 16px;
+    margin: 16px;
+    box-shadow: black solid 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.workSpacer {
+    flex-grow: 1;
+}
+
+.workCard h3 {
+    font-size: 16px;
+    line-height: 19.5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0px;
+    font-weight: 300px;
+}
+
+.workCard h4 {
+    font-size: 12px;
+    margin: 0px;
+    padding-left: 20px;
+    max-width: 160px;
+    font-weight: 200;
+    opacity: 50%;
+}
+
+.workCard:hover  {
+    background-color: #ADD600;
+    fill: #16191A;
+    color: #16191A;
+}
+
+.workCard:hover h4 {
+    opacity: 100%;
+}
+
+.workCard:hover path {
+    filter: Brightness(0) saturate(100%) invert(21%) sepia(13%) saturate(212%) hue-rotate(202deg) brightness(95%) contrast(91%);
+}
+
+/*-----------------------Other Properties---------------------*/
+
+.arrow  {
+    padding: 20px;
+}
+
+.accent {
+    color: #ADD600;
+}
+
+a {
+    all: unset;
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    border: solid white 2px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
