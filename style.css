@@ -103,7 +103,7 @@ padding-left: 60px;
 
 
 
-/*-------------------------Main--------------------------*/
+/*---------------------------Main--------------------------*/
 
 .containerWork {
     display: flex;
@@ -178,13 +178,19 @@ padding-bottom: 50px;
 /*-----------------------Skills---------------------*/
 
 
-.containerSkills {
+.grid-containerSkills {
     display: grid;
-    grid-template-columns: 5;
-    grid-template-rows: 4;
+    grid-gap: 40px;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
 }
 
+.skillCard {
+    width: 50px;
+    height: 50px;
+    background-color: #3A3A3E;
 
+}
 
 
 
