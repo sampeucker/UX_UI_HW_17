@@ -14,7 +14,7 @@ html, body {
 
 /*---------------------------Splash Screen--------------------------*/
 
-.splash {
+#splash {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -105,10 +105,17 @@ padding-left: 60px;
 
 /*---------------------------Main--------------------------*/
 
+
+#workBody {
+    height: 100vh;
+}
+
 .containerWork {
+    padding-top: 20vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 0 10%;
 
 }
 
@@ -120,13 +127,14 @@ line-height: 35px;
 letter-spacing: 0.005em;
 text-align: left;
 width: 100%;
+margin-bottom: 50px;
 }
 
 .workCard {
     height: 340px;
     width: 220px;
     background-color: #3A3A3E;
-    border-radius: 16px;
+    border-radius: 0.5rem;
     margin: 16px;
     box-shadow: black solid 20px;
     display: flex;
@@ -175,29 +183,35 @@ width: 100%;
 
 /*-----------------------Skills---------------------*/
 
+#skillsBody {
+    overflow: auto;
+    height: 100vh;
+    margin: 0 10vw;
+}
 
-.grid-containerSkills {
-    display: grid;
-    grid-gap: 40px;
-    justify-content: center;
-    grid-template-columns: repeat(5, 1fr);
-    margin: 0 15%;
-    width: 80%;
+.containerSkills {
+    display: flex;
+    flex-flow: row wrap;
+    width: 0 10vw;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .skillCard {
-    padding: 1rem;
     border-radius: 0.5rem;
     background-color: #3A3A3E;
-
+    justify-content: center;
+    align-content: center;
 }
 
-.quote {
-    grid-column-start: 1;
-    grid-column-end: 6;
-}
-
-
+#skillsBody .quote {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    }
 
 
 
