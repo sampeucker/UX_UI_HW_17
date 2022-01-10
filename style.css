@@ -6,13 +6,18 @@ html, body {
     background-color: #16191A;
     color: white;
     -webkit-font-smoothing: antialiased;
-    overflow: hidden;
     scroll-behavior: smooth;
     cursor: none;
+
  }
 
 
 /*---------------------------Splash Screen--------------------------*/
+
+
+#splash @ nav {
+    display: none;
+}
 
 #splash {
     height: 100vh;
@@ -20,7 +25,13 @@ html, body {
     justify-content: center;
     align-content: center;
     flex-flow: column wrap;
+    z-index: 100;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+
 }
+
+
 
 
 .arrowButton {
@@ -37,6 +48,15 @@ html, body {
 
 
 /*---------------------------------Nav-----------------------------*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
 #workBody {
     overflow: auto;
     height: 100vh;
@@ -113,7 +133,7 @@ padding-left: 60px;
 .containerWork {
     padding-top: 20vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 10%;
 
@@ -132,7 +152,7 @@ margin-bottom: 50px;
 
 .workCard {
     height: 340px;
-    width: 220px;
+    width: 15rem;
     background-color: #3A3A3E;
     border-radius: 0.5rem;
     margin: 16px;
@@ -187,13 +207,15 @@ margin-bottom: 50px;
     overflow: auto;
     height: 100vh;
     margin: 0 10vw;
+    height: 100vh;
+    padding-top: 20vh;
 }
 
 .containerSkills {
     display: flex;
     flex-flow: row wrap;
     width: 0 10vw;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
 }
 
@@ -202,6 +224,8 @@ margin-bottom: 50px;
     background-color: #3A3A3E;
     justify-content: center;
     align-content: center;
+    margin: 15px;
+    align-self: center;
 }
 
 #skillsBody .quote {
@@ -211,7 +235,18 @@ margin-bottom: 50px;
     line-height: 35px;
     letter-spacing: 0.005em;
     text-align: left;
+    margin-bottom: 50px;
     }
+
+.learnMore {
+    width: 30%;
+    height: 140px;
+    background-color: #3A3A3E;
+    border: solid 1px #ADD600;
+    border-radius: 1rem;
+    align-self: center;
+    margin: 15px;
+}
 
 
 
@@ -240,21 +275,12 @@ a {
     pointer-events: none;
     transform: translate(-50%, -50%);
     position: fixed;
+    z-index: 100;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+main > nav {
+    display: block;
+}
 
 
 
