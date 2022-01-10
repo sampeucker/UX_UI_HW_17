@@ -105,7 +105,7 @@ padding-left: 60px;
 
 /*-------------------------Main--------------------------*/
 
-.container {
+.containerWork {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -171,6 +171,27 @@ padding-bottom: 50px;
     filter: Brightness(0) saturate(100%) invert(21%) sepia(13%) saturate(212%) hue-rotate(202deg) brightness(95%) contrast(91%);
 }
 
+
+
+
+
+/*-----------------------Skills---------------------*/
+
+
+.containerSkills {
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 4;
+}
+
+
+
+
+
+
+
+
+
 /*-----------------------Other Properties---------------------*/
 
 .arrow  {
@@ -185,6 +206,7 @@ a {
     all: unset;
 }
 
+
 .cursor {
     width: 20px;
     height: 20px;
@@ -194,12 +216,6 @@ a {
     transform: translate(-50%, -50%);
     position: fixed;
 }
-
-
-
-
-
-
 
 
 
