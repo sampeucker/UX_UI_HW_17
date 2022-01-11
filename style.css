@@ -15,9 +15,6 @@ html, body {
 /*---------------------------Splash Screen--------------------------*/
 
 
-#splash @ nav {
-    display: none;
-}
 
 #splash {
     height: 100vh;
@@ -54,7 +51,10 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    padding-bottom: 25px;
+    backdrop-filter: blur(00.1rem);
 }
+
 
 
 #workBody {
@@ -93,6 +93,7 @@ padding-left: 60px;
     margin: 0px 15px;
     padding: 0px 5px;
     
+    
 }
 
 .contact svg {
@@ -127,7 +128,7 @@ padding-left: 60px;
 
 
 #workBody {
-    height: 100vh;
+    height: minmax(100vh, fit-content);
 }
 
 .containerWork {
@@ -155,7 +156,7 @@ margin-bottom: 50px;
     width: 15rem;
     background-color: #3A3A3E;
     border-radius: 0.5rem;
-    margin: 16px;
+    gap: 16px;
     box-shadow: black solid 20px;
     display: flex;
     flex-direction: column;
@@ -204,7 +205,7 @@ margin-bottom: 50px;
 /*-----------------------Skills---------------------*/
 
 #skillsBody {
-    overflow: auto;
+    overflow: hidden;
     height: 100vh;
     margin: 0 10vw;
     height: 100vh;
@@ -230,15 +231,8 @@ margin-bottom: 50px;
     position: relative;
 }
 
-.text {
-    position: relative;
-    float: inherit;
-   margin-left: 20px;
-}
 
-svg {
 
-}
 
 #skillsBody .quote {
     font-size: 35px;
@@ -251,13 +245,14 @@ svg {
     }
 
 .learnMore {
-    width: 30%;
+    flex-grow: 2;
     height: 140px;
     background-color: #3A3A3E;
     border: solid 1px #ADD600;
     border-radius: 1rem;
-    align-self: center;
+    align-self: baseline;
     margin: 15px;
+    justify-self: baseline;
 }
 
 @keyframes blurIn {
