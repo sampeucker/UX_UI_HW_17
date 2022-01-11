@@ -156,7 +156,7 @@ margin-bottom: 50px;
     width: 15rem;
     background-color: #3A3A3E;
     border-radius: 0.5rem;
-    gap: 16px;
+    margin: 16px;
     box-shadow: black solid 20px;
     display: flex;
     flex-direction: column;
@@ -268,7 +268,9 @@ margin-bottom: 50px;
 
 .skillCard > svg:hover {
     animation: blurIn 300ms;
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
 }
 
 
