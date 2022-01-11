@@ -226,6 +226,18 @@ margin-bottom: 50px;
     align-content: center;
     margin: 15px;
     align-self: center;
+    display: block;
+    position: relative;
+}
+
+.text {
+    position: relative;
+    float: inherit;
+   margin-left: 20px;
+}
+
+svg {
+
 }
 
 #skillsBody .quote {
@@ -248,7 +260,21 @@ margin-bottom: 50px;
     margin: 15px;
 }
 
+@keyframes blurIn {
+    from {
+      filter: blur(0);
+    }
+  
+    to {
+      filter: blur(0.2rem);
+    }
+  }
 
+
+.skillCard > svg:hover {
+    animation: blurIn 300ms;
+    animation-fill-mode: forwards; 
+}
 
 
 
