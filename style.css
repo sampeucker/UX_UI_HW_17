@@ -23,9 +23,6 @@ html, body {
     align-content: center;
     flex-flow: column wrap;
     z-index: 100;
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
-
 }
 
 
@@ -325,18 +322,3 @@ a {
     position: fixed;
     z-index: 101;
 }
-
-main > nav {
-    display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
