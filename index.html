@@ -10,26 +10,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
+  <script src="https://unpkg.com/scrollreveal"></script>
+ 
 </head>
 
 <body>
-  <div class="cursor">
-
-    <script>
-
-      const cursor = document.querySelector('.cursor');
-
-      document.addEventListener('mousemove', e => {
-        cursor.setAttribute("style", "top: " + (e.pageY - scrollY - 10) + "px; left: " + (e.pageX - 10) + "px")
-      })
-
-
-    </script>
-  </div>
-
+  <div class="cursor"></div>
   <section id="splash">
-    <iframe src='https://my.spline.design/iphone13copy-f64af32542593a31270cbe6211a6a7cd/' frameborder='0' width='100%' height='100%'></iframe>
     <div class="logo">
       <svg width="301" height="135" viewBox="0 0 301 135" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -92,7 +79,7 @@
           <br>
           <span class="accent">for all of this.</span>
         </div>
-        <a href="#" data-index="0" data-modal-style="benefits" class="workCard ctwm">
+        <a href="#" class="workCard slide-up ctwm">
           <h3>Come trip with me</h3>
           <h4>collaborative travel planning application</h4>
           <div class="workSpacer"></div>
@@ -105,7 +92,7 @@
               fill="#ADD600" />
           </svg>
         </a>
-        <a href="#" class="workCard taskie">
+        <a href="#" class="workCard slide-up taskie">
           <h3>Taskie</h3>
           <h4>collaborative household organisation</h4>
           <div class="workSpacer"></div>
@@ -119,7 +106,7 @@
           </svg>
         </a>
 
-        <a href="#" class="workCard aiatsis">
+        <a href="#" class="workCard slide-up aiatsis">
           <h3>AIATSIS</h3>
           <h4>government website redesign</h4>
           <div class="workSpacer"></div>
@@ -133,7 +120,7 @@
           </svg>
         </a>
 
-        <a href="#" class="workCard tbu">
+        <a href="#" class="workCard slide-up tbu">
           <h3>The Big Umbrella</h3>
           <h4>non for profit redesign</h4>
           <img>
@@ -148,7 +135,7 @@
           </svg>
         </a>
 
-        <a href="#" class="workCard future">
+        <a href="#" class="workCard slide-up future">
           <h3>Future work</h3>
           <h4>yet to complete</h4>
           <img>
@@ -165,7 +152,6 @@
         </a>
 
       </div>
-
 
       </div>
     </section>
@@ -401,5 +387,5 @@
 </body>
 
 
-
+<script src="/js/index.js"></script>
 </html>
