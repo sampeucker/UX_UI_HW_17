@@ -158,6 +158,18 @@ margin: 50px;
 
 .workSpacer {
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.aiatsislogo {
+    height: 75px;
+}
+
+.icon {
 }
 
 .workCard h3 {
@@ -182,15 +194,19 @@ margin: 50px;
 
 .workCard:hover  {
     background-color: #ADD600;
-    fill: #16191A;
     color: #16191A;
+}
+
+.workCard:hover .icon {
+    position: relative;
+    transform: translateZ(50px);
 }
 
 .workCard:hover h4 {
     opacity: 100%;
 }
 
-.workCard:hover path {
+.workCard:hover .noncolour {
     filter: Brightness(0) saturate(100%) invert(21%) sepia(13%) saturate(212%) hue-rotate(202deg) brightness(95%) contrast(91%);
 }
 

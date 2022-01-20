@@ -54,3 +54,4 @@ $('.workCard').tilt({
   maxGlare: 0.3,
   scale: 1.05,
 })
+
