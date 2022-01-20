@@ -152,6 +152,7 @@ margin: 50px;
     box-shadow: black solid 20px;
     display: flex;
     flex-direction: column;
+    transform-style: preserve-3d;
 }
 
 .workSpacer {

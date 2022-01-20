@@ -7,41 +7,47 @@
 
 
       ScrollReveal().reveal('.ctwm', {  
-         delay :50, 
-         duration: 1000, 
-         reset: true
+         delay :25, 
+         duration: 500, 
+         reset: true,
+         distance: '50%',
+         easing: 'ease-out'
         });
-      ScrollReveal().reveal('.taskie', { 
-        delay :100, 
-        duration: 1000,
-        reset: true
-      });
-      ScrollReveal().reveal('.aiatsis', { 
-        delay :150, 
-        duration: 1000,
-        reset: true
-      });
-      ScrollReveal().reveal('.tbu', { 
-        delay :200, 
-        duration: 1000,
-        reset: true
-      });
-      ScrollReveal().reveal('.future', { 
-        delay :250, 
-        duration: 1000,
-        reset: true
-      });
+        
+        ScrollReveal().reveal('.taskie', {  
+          delay :50, 
+          duration: 500, 
+          reset: true,
+          distance: '50%',
+          easing: 'ease-out'
+         });
+        
+         ScrollReveal().reveal('.aiatsis', {  
+          delay :75, 
+          duration: 500, 
+          reset: true,
+          distance: '50%',
+          easing: 'ease-out'
+         });
+        
+         ScrollReveal().reveal('.tbu', {  
+          delay :100, 
+          duration: 500, 
+          reset: true,
+          distance: '50%',
+          easing: 'ease-out'
+         });
+        
+         ScrollReveal().reveal('.future', {  
+          delay :125, 
+          duration: 500, 
+          reset: true,
+          distance: '50%',
+          easing: 'ease-out'
+         });
+         
+
+// ----------------------------------------------------------------------------------------------
 
 
 
-      ScrollReveal().reveal('.skillCard');
-
-
-      var slideUp = {
-        distance: '50%',
-        origin: 'bottom',
-        opacity: null
-    };
-    
-    ScrollReveal().reveal('.slide-up', slideUp);
-      
