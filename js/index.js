@@ -43,5 +43,5 @@
         opacity: null
     };
     
-    ScrollReveal().reveal('.slide-up', slideUp, reveal);
+    ScrollReveal().reveal('.slide-up', slideUp);
       
