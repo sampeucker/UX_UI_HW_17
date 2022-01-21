@@ -184,14 +184,21 @@ margin: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    color: black;
 }
 
+
+.tbu {
+    background-image: url(./assets/tbu-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
 .aiatsislogo {
     height: 75px;
 }
 
-.icon {
-}
 
 .workCard h3{
     display: none;
@@ -239,6 +246,7 @@ margin: 50px;
     margin: 0px;
     font-weight: 500px;
     display: block;
+    color: white;
 }
 
 .workCard:hover h4 {
@@ -249,7 +257,28 @@ margin: 50px;
     font-weight: 200;
     opacity: 100%;
     display: block;
+    color: white;
 }
+
+.taskie:hover h3 {
+    color: black;
+}
+
+
+.taskie:hover h4 {
+    color: black;
+}
+
+
+.ctwm:hover h3 {
+    color: black;
+}
+
+
+.ctwm:hover h4 {
+    color: black;
+}
+
 
 .workCard:hover .noncolour {
     filter: Brightness(0) saturate(100%) invert(21%) sepia(13%) saturate(212%) hue-rotate(202deg) brightness(95%) contrast(91%);
@@ -285,9 +314,12 @@ margin: 50px;
     align-self: center;
     display: block;
     position: relative;
+    transform-style: preserve-3d;
 }
 
-
+.skillCard:hover svg {
+    transform: translateZ(35px)
+}
 
 
 #skillsBody .quote {
@@ -342,24 +374,6 @@ text-align: left;
 width: 200px;
 }
 
-@keyframes blurIn {
-    from {
-      filter: blur(0);
-    }
-  
-    to {
-      filter: blur(0.2rem);
-    }
-  }
-
-
-.skillCard > svg:hover {
-    animation: blurIn 300ms;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-
-}
-
 
 
 /*-----------------------Other Properties---------------------*/
@@ -387,3 +401,5 @@ a {
     position: fixed;
     z-index: 101;
 }
+
+.s
