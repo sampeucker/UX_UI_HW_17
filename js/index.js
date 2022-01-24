@@ -1,7 +1,7 @@
       const cursor = document.querySelector('.cursor');
 
       document.addEventListener('mousemove', e => {
-        cursor.setAttribute("style", "top: " + (e.pageY - scrollY - 10) + "px; left: " + (e.pageX - 10) + "px")
+        cursor.setAttribute("style", "top: " + (e.pageY - scrollY) + "px; left: " + (e.pageX) + "px")
       })
 
 
@@ -37,20 +37,3 @@
           distance: '50%',
           easing: 'ease-out'
          });
-        
-         ScrollReveal().reveal('.future', {  
-          delay :125, 
-          duration: 500, 
-          reset: true,
-          distance: '50%',
-          easing: 'ease-out'
-         });
-         
-
-
-$('.skillCard').tilt({
-  glare: true,
-  maxGlare: 1,
-  scale: 1.05,
-})
-

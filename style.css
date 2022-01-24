@@ -49,8 +49,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    backdrop-filter: blur(00.3rem);
+
     z-index: 100;
+    padding: 20px 0px;
 }
 
 #navBody {
@@ -66,8 +67,8 @@ nav {
     text-align: center;
     letter-spacing: 0.005em;
     line-height: 16px;
-    margin: 15px 15px;
-    padding: 5px 5px;
+    padding: 20px;
+    backdrop-filter: blur(00.3rem);
 }
 
 
@@ -75,6 +76,7 @@ nav {
 .navItem:hover {
     border-bottom: 2px solid white;
     margin-bottom: -2px;
+    color: #ADD600;
 }
 
 .contact:hover {
@@ -87,7 +89,7 @@ nav {
 /*---------------------------Main--------------------------*/
 
 .containerWork {
-    padding-top: 20vh;
+    padding-top: 13vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -122,9 +124,6 @@ margin: 50px;
     transform-style: preserve-3d;
     overflow: hidden;
 }
-
-
-
 
 .aiatsis {
     background-image: url(./assets/aiatsis-03.png);
@@ -189,6 +188,11 @@ margin: 50px;
 
 }
 
+.workCard:hover {
+filter: blur(0.2rem);
+}
+
+
 .workCard:hover  {
     background-color: #ADD600;
     color: #16191A;
@@ -208,6 +212,7 @@ margin: 50px;
     font-weight: 500px;
     display: block;
     color: white;
+    filter: blur(0rem) !important;
 }
 
 .workCard:hover h4 {
@@ -253,7 +258,6 @@ margin: 50px;
 
 #skillsBody {
     min-height: 100vh;
-    margin: 0 10vw;
     height: 100vh;
     padding-top: 20vh;
 }
@@ -261,9 +265,14 @@ margin: 50px;
 .containerSkills {
     display: flex;
     flex-flow: row wrap;
-    width: 0 10vw;
     justify-content: center;
     align-content: center;
+    margin: 0px 10%;
+}
+
+.containerSkills .quote {
+    width: 100%;
+    margin: 50px;
 }
 
 .skillCard {
@@ -335,6 +344,38 @@ text-align: left;
 width: 200px;
 }
 
+
+
+#aboutBody .quote {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    width: 100%;
+    margin: 50px;
+    }
+
+#aboutBody {
+    padding-top: 13vh;
+    margin: 0 10%;
+    height: 100vh;
+
+}
+
+
+.containerAbout {
+    display: flex;
+    height: 90vh;
+}
+
+
+.profile {
+    height: 50vh;
+    float: right;
+    align-self: center;
+}
 
 
 /*-----------------------Other Properties---------------------*/
