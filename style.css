@@ -8,6 +8,7 @@ html, body {
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
     cursor: none;
+    box-sizing: border-box;
 
  }
 
@@ -48,9 +49,16 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    padding-bottom: 25px;
     backdrop-filter: blur(00.3rem);
     z-index: 100;
+}
+
+#navBody {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+    justify-items: flex-end;
+    flex-direction: row-reverse;
 }
 
 
@@ -87,8 +95,8 @@ padding-left: 60px;
     letter-spacing: 0.005em;
     line-height: 16px;
     height: 25px;
-    margin: 0px 15px;
-    padding: 0px 5px;
+    margin: 15px 15px;
+    padding: 5px 5px;
     
     
 }
