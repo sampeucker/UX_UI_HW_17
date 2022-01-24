@@ -55,35 +55,7 @@ nav {
 
 #navBody {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;  
-    justify-items: flex-end;
-    flex-direction: row-reverse;
-}
-
-
-
-#workBody {
-    min-height: 100vh;
-}
-
-
-.navigation {
-    display: flex;
     justify-content: flex-end;
-    padding-top: 35px;
-}
-
-.navLogo {
-font-size: 24px;
-font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
-font-weight: 700px;
-line-height: 19px;
-letter-spacing: -0.105em;
-float: left;
-margin: 0px;
-padding-top: 30px;
-padding-left: 60px;
 }
 
 .navItem {
@@ -94,28 +66,11 @@ padding-left: 60px;
     text-align: center;
     letter-spacing: 0.005em;
     line-height: 16px;
-    height: 25px;
     margin: 15px 15px;
     padding: 5px 5px;
-    
-    
-}
-
-.contact svg {
-    padding: 0px;
-    float: right;
-    padding-left: 5px;
-}
-
-.navSpacer {
-    width: 8.33%;
 }
 
 
-.contact {
-    margin: 0px;
-    padding-top: 0px;
-}
 
 .navItem:hover {
     border-bottom: 2px solid white;
@@ -138,6 +93,10 @@ padding-left: 60px;
     flex-wrap: wrap;
     margin: 0 10%;
 
+}
+
+#workBody {
+    min-height: 100vh;
 }
 
 #workBody .quote {
@@ -164,13 +123,7 @@ margin: 50px;
     overflow: hidden;
 }
 
-.workSpacer {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
+
 
 
 .aiatsis {
@@ -315,7 +268,7 @@ margin: 50px;
 
 .skillCard {
     border-radius: 0.5rem;
-    background-color: #3A3A3E;
+    background-color: #16191A;
     justify-content: center;
     align-content: center;
     margin: 15px;
