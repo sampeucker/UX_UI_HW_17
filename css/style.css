@@ -125,21 +125,21 @@ margin: 50px;
 }
 
 .aiatsis {
-    background-image: url(./assets/aiatsis-03.png);
+    background-image: url(/assets/aiatsis-03.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .ctwm {
-    background-image: url(./assets/ctwm-01.png);
+    background-image: url(/assets/ctwm-01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .taskie {
-    background-image: url(./assets/taskie-01.png);
+    background-image: url(/assets/taskie-01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -148,7 +148,7 @@ margin: 50px;
 
 
 .tbu {
-    background-image: url(./assets/tbu-01.png);
+    background-image: url(/assets/tbu-01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
