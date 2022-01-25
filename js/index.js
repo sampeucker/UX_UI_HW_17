@@ -11,7 +11,8 @@
          duration: 500, 
          reset: true,
          distance: '50%',
-         easing: 'ease-out'
+         easing: 'ease-out',
+         mobile: false,
         });
         
         ScrollReveal().reveal('.taskie', {  
@@ -19,7 +20,8 @@
           duration: 500, 
           reset: true,
           distance: '50%',
-          easing: 'ease-out'
+          easing: 'ease-out',
+          mobile: false,
          });
         
          ScrollReveal().reveal('.aiatsis', {  
@@ -27,7 +29,8 @@
           duration: 500, 
           reset: true,
           distance: '50%',
-          easing: 'ease-out'
+          easing: 'ease-out',
+          mobile: false,
          });
         
          ScrollReveal().reveal('.tbu', {  
@@ -35,5 +38,13 @@
           duration: 500, 
           reset: true,
           distance: '50%',
-          easing: 'ease-out'
+          easing: 'ease-out',
+          mobile: false,
          });
+
+
+         ScrollReveal({ mobile: false });
+
+         if (ScrollReveal().noop) {
+          console.log('ScrollReveal is non-operational!');
+      }

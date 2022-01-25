@@ -158,14 +158,6 @@ margin: 50px;
     height: 75px;
 }
 
-
-.workCard h3{
-    display: none;
-}
-
-.workcar
-
-
 .workCard h3 {
     font-size: 16px;
     line-height: 19.5px;
@@ -173,8 +165,8 @@ margin: 50px;
     padding-top: 20px;
     margin: 0px;
     font-weight: 300px;
+    display: none;
 }
-
 
 .workCard h4 {
     font-size: 12px;
@@ -186,7 +178,6 @@ margin: 50px;
     display: none;
 
 }
-
 
 .workCard:hover  {
     background-color: #ADD600;
@@ -253,7 +244,6 @@ margin: 50px;
 
 #skillsBody {
     min-height: 100vh;
-    height: 100vh;
     padding-top: 20vh;
 }
 
@@ -280,10 +270,12 @@ margin: 50px;
     display: block;
     position: relative;
     transform-style: preserve-3d;
+    
 }
 
 .skillCard:hover svg {
-    transform: translateZ(35px)
+    transform: translateZ(15px)
+    
 }
 
 
@@ -355,25 +347,47 @@ width: 200px;
 #aboutBody {
     padding-top: 13vh;
     margin: 0 10%;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
-
 .containerAbout {
     display: flex;
-    height: 90vh;
+    flex-flow: column wrap;
 }
 
 
 .profile {
     height: 50vh;
-    float: right;
+    justify-self: center;
     align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
 }
 
 
 /*-----------------------Other Properties---------------------*/
+
+@media screen and (max-width: 600px) {
+    .quote {
+        font-size: 22px !important;
+    }
+    .skillCard svg {
+        width: 85px;
+    }
+    .skillCard {
+        margin: 10px;
+    }
+    nav {
+        display: none;
+    }
+    html {
+        overflow: auto;
+    }
+}
+
+
+
 
 .arrow  {
     padding: 20px;
