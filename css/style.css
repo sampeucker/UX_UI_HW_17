@@ -353,7 +353,7 @@ width: 200px;
 
 .containerAbout {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 
 
@@ -365,6 +365,10 @@ width: 200px;
     
 }
 
+
+.content {
+    flex-grow: 1;
+}
 
 /*-----------------------Other Properties---------------------*/
 
