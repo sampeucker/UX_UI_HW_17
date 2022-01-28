@@ -104,11 +104,11 @@ nav {
 
 
 #preview {
-    height: 70vh !important;
+    height: 20vh !important;
 }
 
 
 section {
-    min-height: 100vh;
+    
     text-align: center;
 }
