@@ -270,15 +270,30 @@ margin: 50px;
     align-content: center;
     margin: 15px;
     align-self: center;
-    display: block;
+    display: flex;
     position: relative;
     transform-style: preserve-3d;
+    align-items: center;
     
 }
 
+
+.skillName {
+    position: absolute;
+    font-weight: 700;
+    display: none;
+}
+
 .skillCard:hover svg {
-    transform: translateZ(15px)
+    transform: translateZ(15px);
+    filter: blur(0.25rem);  
     
+}
+
+.skillCard:hover div {
+    display: block !important;
+    transform: translateZ(16px);
+
 }
 
 
