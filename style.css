@@ -248,7 +248,6 @@ margin: 50px;
 
 #skillsBody {
     min-height: 100vh;
-    padding-top: 20vh;
 }
 
 .containerSkills {
@@ -318,6 +317,7 @@ margin: 50px;
     font-size: 14px;
     font-weight: 500;
     font-style: normal;
+    text-align: center;
 }
 
 .text {
@@ -331,7 +331,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 17px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 width: 200px;
 }
 
