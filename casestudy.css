@@ -49,10 +49,6 @@ section {
     padding-bottom: 50px;
 }
 
-img {
-    max-height: 60vh;
-    max-width: 80vw;
-}
 
 .reverse {
     flex-direction: row-reverse ;
@@ -109,6 +105,17 @@ nav {
 
 
 section {
-    
+    margin: 20vh 10vw;
     text-align: center;
 }
+
+
+.zoomImage {
+    width: 35vw;
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0); /* IE 9 */
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0);
+}
+
