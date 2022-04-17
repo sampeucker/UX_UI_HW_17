@@ -404,6 +404,9 @@ width: 200px;
     nav {
         display: none;
     }
+    .cursor {
+        display: none;
+    }
     html {
         overflow: auto;
     }
