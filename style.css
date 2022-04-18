@@ -389,6 +389,17 @@ width: 200px;
     flex-grow: 1;
 }
 
+
+
+.offcanvas {
+    width: 300px;
+    background-color: #add600;
+}
+
+
+
+
+
 /*-----------------------Other Properties---------------------*/
 
 @media screen and (max-width: 600px) {
