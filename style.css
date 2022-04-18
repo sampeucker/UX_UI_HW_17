@@ -151,13 +151,22 @@ margin: 50px;
 }
 
 
-.tbu {
-    background-image: url(./assets/tbu.png);
+.extra {
+    background-image: url(./assets/blender2-01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    color: white;
 }
+
+.trailTalk {
+    background-image: url(./assets/Frame\ 239.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
 .aiatsislogo {
     height: 75px;
 }
@@ -232,6 +241,15 @@ margin: 50px;
 
 
 .ctwm:hover h4 {
+    color: black;
+}
+
+.trailTalk:hover h3{
+    color: black;
+}
+
+
+.trailTalk:hover h4{
     color: black;
 }
 
