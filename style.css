@@ -159,16 +159,10 @@ margin: 50px;
 }
 
 .trailTalk {
-    background-image: url(./assets/Frame\ 239.png);
+    background-image: url(./assets/trailtalk.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-
-
-.aiatsislogo {
-    height: 75px;
 }
 
 .workCard h3 {
