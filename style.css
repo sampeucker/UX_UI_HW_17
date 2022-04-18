@@ -347,7 +347,7 @@ margin: 50px;
 
 
 .offcanvas {
-    width: 300px;
+    width: 250px;
     background-color: #add600;
     display: flex;
     z-index: 1041;
@@ -356,13 +356,14 @@ margin: 50px;
 }
 
 .contactItem {
-    font-size: 24px;
+    font-size: 16px;
     display: flex;
-    margin: 30px;
+    margin: 15px;
     align-items: center;
     color: #16191A;
     padding: 5px;
     border-radius: 0.2rem;
+    justify-content: center;
 }
 
 .contactItem:hover {
@@ -372,26 +373,10 @@ margin: 50px;
 
 
 i {
+    font-size: 24px;
     margin-right: 10px  ;
 }
 
-.offcanvas p {
-    color: #16191A;
-    font-size: 20px;
-    margin: 30px;
-}
-
-
-
-.offcanvas h3 {
-font-size: 24px;
-line-height: 19.5px;
-margin: 30px;
-font-weight: 700px;
-font-style: bold;
-color: black;
-align-self: flex-start;
-}
 
 /*-----------------------Other Properties---------------------*/
 
