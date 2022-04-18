@@ -307,51 +307,6 @@ margin: 50px;
     margin-bottom: 50px;
     }
 
-.learnMore {
-    width: 318px;
-    height: 140px;
-    background-color: #3A3A3E;
-    border: solid 1px #ADD600;
-    border-radius: 1rem;
-    margin: 15px;
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-
-.learnMore svg {
-    margin: 0px 15px;
-    width: 80px;
-}
-
-.learnMore span {
-    font-family: "HelviticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-}
-
-.text {
-    margin-top: -8px;
-}
-
-.learnMore p {
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: center;
-width: 200px;
-}
-
-
-
 #aboutBody .quote {
     font-size: 35px;
     font-style: normal;
@@ -394,11 +349,49 @@ width: 200px;
 .offcanvas {
     width: 300px;
     background-color: #add600;
+    display: flex;
+    z-index: 1041;
+    justify-content: center;
+
+}
+
+.contactItem {
+    font-size: 24px;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    color: #16191A;
+    padding: 5px;
+    border-radius: 0.2rem;
+}
+
+.contactItem:hover {
+    color: #16191A;
+    background-color: #cbcbcb;
+}
+
+
+i {
+    margin-right: 10px  ;
+}
+
+.offcanvas p {
+    color: #16191A;
+    font-size: 20px;
+    margin: 30px;
 }
 
 
 
-
+.offcanvas h3 {
+font-size: 24px;
+line-height: 19.5px;
+margin: 30px;
+font-weight: 700px;
+font-style: bold;
+color: black;
+align-self: flex-start;
+}
 
 /*-----------------------Other Properties---------------------*/
 
@@ -447,5 +440,5 @@ a {
     pointer-events: none;
     transform: translate(-50%, -50%);
     position: fixed;
-    z-index: 101;
+    z-index: 1042;
 }
