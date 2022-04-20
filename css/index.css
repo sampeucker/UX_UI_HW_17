@@ -1,22 +1,5 @@
-html, body {
-    /*font-family: 'Open Sans', sans-serif;*/
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
-    font-weight: 300;
-    background-color: #16191A;
-    color: white;
-    -webkit-font-smoothing: antialiased;
-    scroll-behavior: smooth;
-    cursor: none;
-    box-sizing: border-box;
-
- }
-
 
 /*---------------------------Splash Screen--------------------------*/
-
-
-
 #splash {
     height: 100vh;
     display: flex;
@@ -40,50 +23,6 @@ html, body {
     transform: rotate(90deg);
     transform-origin: 50% 50%;
   }
-
-
-/*---------------------------------Nav-----------------------------*/
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    padding: 20px 0px;
-}
-
-#navBody {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navItem {
-    font-family: "HelviticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.005em;
-    line-height: 16px;
-    padding: 20px;
-    backdrop-filter: blur(00.3rem);
-}
-
-
-
-.navItem:hover {
-    border-bottom: 2px solid white;
-    margin-bottom: -2px;
-    color: #ADD600;
-}
-
-.contact:hover {
-    border-bottom: 2px solid #ADD600;
-    margin-bottom: -2px;
-}
-
-
 
 /*---------------------------Main--------------------------*/
 
@@ -129,21 +68,21 @@ margin: 50px;
 
 
 .aiatsis {
-    background-image: url(./assets/aiatsis.png);
+    background-image: url(../assets/aiatsis.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .ctwm {
-    background-image: url(./assets/ctwm.png);
+    background-image: url(../assets/ctwm.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .taskie {
-    background-image: url(./assets/taskie.png);
+    background-image: url(../assets/taskie.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -152,14 +91,14 @@ margin: 50px;
 
 
 .extra {
-    background-image: url(./assets/blender2-01.png);
+    background-image: url(../assets/blender2-01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .trailTalk {
-    background-image: url(./assets/trailtalk.png);
+    background-image: url(../assets/trailtalk.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -358,37 +297,6 @@ margin: 50px;
 
 
 
-.offcanvas {
-    width: 250px;
-    background-color: #add600;
-    display: flex;
-    z-index: 1041;
-    justify-content: center;
-
-}
-
-.contactItem {
-    font-size: 16px;
-    display: flex;
-    margin: 15px;
-    align-items: center;
-    color: #16191A;
-    padding: 5px;
-    border-radius: 0.2rem;
-    justify-content: center;
-}
-
-.contactItem:hover {
-    color: #16191A;
-    background-color: #cbcbcb;
-}
-
-
-i {
-    font-size: 24px;
-    margin-right: 10px  ;
-}
-
 
 /*-----------------------Other Properties---------------------*/
 
@@ -415,7 +323,6 @@ i {
 
 
 
-
 .arrow  {
     padding: 20px;
 }
@@ -428,14 +335,3 @@ a {
     all: unset;
 }
 
-
-.cursor {
-    width: 20px;
-    height: 20px;
-    border-radius: 40%;
-    border: solid white 2px;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    position: fixed;
-    z-index: 1042;
-}

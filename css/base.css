@@ -1,4 +1,5 @@
 html, body {
+    /*font-family: 'Open Sans', sans-serif;*/
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-weight: 300;
@@ -8,56 +9,11 @@ html, body {
     scroll-behavior: smooth;
     cursor: none;
     box-sizing: border-box;
-}
 
-.arrow  {
-    padding: 20px;
-}
-
-.accent {
-    color: #ADD600;
-}
-
-a {
-    all: unset;
-}
+ }
 
 
-.cursor {
-    width: 20px;
-    height: 20px;
-    border-radius: 40%;
-    border: solid white 2px;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    position: fixed;
-    z-index: 101;
-}
-
-h2 {
-    padding: 50px 0px;
-}
-
-
-
-section {
-    margin: 0px 10vw;
-}
-
-.fluidContainer {
-    max-height: 60vh;
-    padding-bottom: 50px;
-}
-
-
-.reverse {
-    flex-direction: row-reverse ;
-}
-
-
-
-
-nav {
+ nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -89,34 +45,80 @@ nav {
     border-bottom: 2px solid white;
     margin-bottom: -2px;
     color: #ADD600;
-    text-decoration: none;
+    cursor: none;
 }
 
 .contact:hover {
     border-bottom: 2px solid #ADD600;
     margin-bottom: -2px;
-    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .quote {
+        font-size: 26px !important;
+    }
+    .skillCard svg {
+        width: 85px;
+    }
+    .skillCard {
+        margin: 10px;
+    }
+    nav {
+        display: none;
+    }
+    .cursor {
+        display: none;
+    }
+    html {
+        overflow: auto;
+    }
 }
 
 
-#preview {
-    height: 20vh !important;
+
+.offcanvas {
+    width: 250px;
+    background-color: #add600;
+    display: flex;
+    z-index: 1041;
+    justify-content: center;
+
+}
+
+.contactItem {
+    font-size: 16px;
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    color: #16191A;
+    padding: 5px;
+    border-radius: 0.2rem;
+    justify-content: center;
+}
+
+.contactItem:hover {
+    color: #16191A;
+    background-color: #cbcbcb;
 }
 
 
-section {
-    margin: 20vh 10vw;
-    text-align: center;
+i {
+    font-size: 24px;
+    margin-right: 10px  ;
+}
+
+a {
+    all: unset;
 }
 
 
-.zoomImage {
-    width: 35vw;
-    display: inline-block;
-    -webkit-backface-visibility: hidden;
-    -ms-transform: translateZ(0);
-    -webkit-transform: translateZ(0); 
-    transform: translateZ(0);
-    border-radius: 1rem;
-    margin-top: 0.2rem;
+.cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    border: solid white 2px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 1042;
 }

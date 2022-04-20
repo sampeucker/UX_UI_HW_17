@@ -1,0 +1,40 @@
+html, body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-weight: 300;
+    background-color: #16191A;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+    cursor: none;
+    box-sizing: border-box;
+}
+
+.arrow  {
+    padding: 20px;
+}
+
+.accent {
+    color: #ADD600;
+}
+
+a {
+    all: unset;
+}
+
+section {
+    margin: 20vh 10vw;
+    text-align: center;
+}
+
+
+.zoomImage {
+    width: 35vw;
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0); 
+    transform: translateZ(0);
+    border-radius: 1rem;
+    margin-top: 0.2rem;
+}
