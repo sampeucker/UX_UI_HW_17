@@ -111,6 +111,9 @@ a {
     all: unset;
 }
 
+.accent {
+    color: #ADD600;
+}
 
 .cursor {
     width: 20px;
@@ -121,4 +124,5 @@ a {
     transform: translate(-50%, -50%);
     position: fixed;
     z-index: 1042;
+    mix-blend-mode: difference;
 }
