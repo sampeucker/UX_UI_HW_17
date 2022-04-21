@@ -8,12 +8,13 @@
 
 #content {
     background-color: #F4F4F4;
-    padding: 20vh 20vw;
+    padding: 10vh 20vw;
 
 }
 
 .white {
     color: white;
+    margin-bottom: 50px;
 }
 
 .gallery {
@@ -28,6 +29,7 @@
     height: 20vh;
     margin-bottom: 50px;
     margin-top: 20px;
+    justify-content: space-evenly;
 }
 
 .small img {
@@ -36,17 +38,19 @@
 
 
 h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+
+}
+
+h4 {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     color: black;
-    margin: 50px 0;
-}
-
-h4 {
-    font-size: 18px;
-    text-align: center;
-    color: black;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -56,6 +60,7 @@ h4 {
 .title {
     font-weight: 600;
     text-align: center ;
+    padding-bottom: 10px;
 }
 
 .logo {
@@ -77,3 +82,10 @@ h4 {
     width: 25%;
 }
     
+.divider {
+    background-color: #A4CD7F;
+    height: 3px;
+    border-radius: 0.5rem;
+    margin: 10vh 0;
+    width: auto;
+}
