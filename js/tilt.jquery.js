@@ -260,7 +260,7 @@
              * @type {*}
              */
             this.settings = $.extend({
-                maxTilt: $(this).is('[data-tilt-max]') ? $(this).data('tilt-max') : 20,
+                maxTilt: $(this).is('[data-tilt-max]') ? $(this).data('tilt-max') : 1,
                 perspective: $(this).is('[data-tilt-perspective]') ? $(this).data('tilt-perspective') : 300,
                 easing: $(this).is('[data-tilt-easing]') ? $(this).data('tilt-easing') : 'cubic-bezier(.03,.98,.52,.99)',
                 scale: $(this).is('[data-tilt-scale]') ? $(this).data('tilt-scale') : '1',
@@ -270,7 +270,7 @@
                 axis: $(this).is('[data-tilt-axis]') ? $(this).data('tilt-axis') : null,
                 reset: $(this).is('[data-tilt-reset]') ? $(this).data('tilt-reset') : true,
                 glare: $(this).is('[data-tilt-glare]') ? $(this).data('tilt-glare') : false,
-                maxGlare: $(this).is('[data-tilt-maxglare]') ? $(this).data('tilt-maxglare') : 1,
+                maxGlare: $(this).is('[data-tilt-maxglare]') ? $(this).data('tilt-maxglare') : 0.5,
             }, options);
 
             // Add deprecation warning & set disableAxis to deprecated axis setting

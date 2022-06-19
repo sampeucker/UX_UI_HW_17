@@ -27,12 +27,11 @@
 /*---------------------------Main--------------------------*/
 
 .containerWork {
-    padding-top: 13vh;
+    padding-top: vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 10%;
-
+    margin: 0 5vw;
 }
 
 #workBody {
@@ -48,15 +47,16 @@ letter-spacing: 0.005em;
 text-align: left;
 width: 100%;
 margin: 50px;
+margin-left: 15vw;
 }
 
 .workCard {
-    height: 340px;
-    width: 15rem;
+    height: 35vh;
+    width: 40%;
     background-color: #3A3A3E;
-    border-radius: 0.5rem;
-    margin: 16px;
+    border-radius: 0.2rem;
     box-shadow: black solid 20px;
+    margin: 5px;
     display: flex;
     flex-direction: column;
     transform-style: preserve-3d;
@@ -64,45 +64,6 @@ margin: 50px;
 }
 
 
-
-
-
-.aiatsis {
-    background-image: url(../assets/aiatsis.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.ctwm {
-    background-image: url(../assets/ctwm.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.taskie {
-    background-image: url(../assets/taskie.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: black;
-}
-
-
-.extra {
-    background-image: url(../assets/blender2-01.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.trailTalk {
-    background-image: url(../assets/trailtalk.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 .workCard h3 {
     font-size: 16px;
@@ -130,10 +91,6 @@ margin: 50px;
     color: #16191A;
 }
 
-.workCard:hover .icon {
-    position: relative;
-    transform: translateZ(50px);
-}
 
 .workCard:hover h3 {
     font-size: 16px;
