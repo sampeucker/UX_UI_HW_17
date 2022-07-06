@@ -39,6 +39,7 @@
 
 #workBody {
     min-height: 100vh;
+    padding-top: 50px;
 }
 
 #workBody .quote {
@@ -75,6 +76,7 @@ margin: 50px;
 
 #skillsBody {
     min-height: 100vh;
+    padding-top: 100px;
 }
 
 .containerSkills {
@@ -178,6 +180,7 @@ margin: 50px;
     margin-right: 50px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     color: lightgrey;
+    width: 70%;
 
 }
 
