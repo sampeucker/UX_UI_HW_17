@@ -57,6 +57,12 @@ html, body {
     .quote {
         font-size: 26px !important;
     }
+
+    .workCard{
+        width: 80%;
+    }
+
+
     .skillCard svg {
         width: 85px;
     }

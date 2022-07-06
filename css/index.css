@@ -50,105 +50,23 @@ margin: 50px;
 margin-left: 15vw;
 }
 
+.wrapper {
+    height: 56.25%;
+    width: 100%;
+}
+
+
+
 .workCard {
-    height: 35vh;
-    width: 40%;
-    background-color: #3A3A3E;
     border-radius: 0.2rem;
     box-shadow: black solid 20px;
     margin: 5px;
-    display: flex;
-    flex-direction: column;
     transform-style: preserve-3d;
     overflow: hidden;
-}
-
-
-
-.workCard h3 {
-    font-size: 16px;
-    line-height: 19.5px;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin: 0px;
-    font-weight: 300px;
-    display: none;
-}
-
-.workCard h4 {
-    font-size: 12px;
-    margin: 0px;
-    padding-left: 20px;
-    max-width: 160px;
-    font-weight: 200;
-    opacity: 50%;
-    display: none;
+    background-image: url(../assets/ctwm.png);
+   background-size: cover;
 
 }
-
-.workCard:hover  {
-    background-color: #ADD600;
-    color: #16191A;
-}
-
-
-.workCard:hover h3 {
-    font-size: 16px;
-    line-height: 19.5px;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin: 0px;
-    font-weight: 500px;
-    display: block;
-    color: white;
-    filter: blur(0rem) !important;
-}
-
-.workCard:hover h4 {
-    font-size: 12px;
-    margin: 0px;
-    padding-left: 20px;
-    max-width: 160px;
-    font-weight: 200;
-    opacity: 100%;
-    display: block;
-    color: white;
-}
-
-.taskie:hover h3 {
-    color: black;
-}
-
-
-.taskie:hover h4 {
-    color: black;
-}
-
-
-.ctwm:hover h3 {
-    color: black;
-}
-
-
-.ctwm:hover h4 {
-    color: black;
-}
-
-.trailTalk:hover h3{
-    color: black;
-}
-
-
-.trailTalk:hover h4{
-    color: black;
-}
-
-
-.workCard:hover .noncolour {
-    filter: Brightness(0) saturate(100%) invert(21%) sepia(13%) saturate(212%) hue-rotate(202deg) brightness(95%) contrast(91%);
-}
-
-
 
 
 
