@@ -53,6 +53,10 @@ width: 100%;
 margin: 50px;
 }
 
+.workCard img {
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+}
 
 .workCard {
     border-radius: 0.2rem;
@@ -63,8 +67,9 @@ margin: 50px;
     width: 34%;
 }
 
-.workCard:hover {
-    transform: scale(1.5);
+.workCard:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
 }
 
 .workCard img {
@@ -161,7 +166,7 @@ margin: 50px;
 
 .profile {
     height: 50vh;
-
+border-radius: 0.3rem;
     justify-self: center;
     align-self: flex-end;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
