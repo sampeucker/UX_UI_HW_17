@@ -15,8 +15,11 @@
 .arrowButton {
     margin-top: 10px;
     display: flex;
-    justify-content: center;
-        
+    justify-content: center;        
+}
+
+.arrowButton svg {
+    transform: rotate(90deg);
 }
 
 .splash path {
@@ -31,7 +34,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 5vw;
+    margin: 0 10vw;
 }
 
 #workBody {
@@ -47,14 +50,7 @@ letter-spacing: 0.005em;
 text-align: left;
 width: 100%;
 margin: 50px;
-margin-left: 15vw;
 }
-
-.wrapper {
-    height: 56.25%;
-    width: 100%;
-}
-
 
 
 .workCard {
@@ -63,11 +59,16 @@ margin-left: 15vw;
     margin: 5px;
     transform-style: preserve-3d;
     overflow: hidden;
-    background-image: url(../assets/ctwm.png);
-   background-size: cover;
-
+    width: 34%;
 }
 
+.workCard:hover {
+    transform: scale(1.5);
+}
+
+.workCard img {
+    width: 100%;
+}
 
 
 /*-----------------------Skills---------------------*/
@@ -153,21 +154,31 @@ margin-left: 15vw;
 
 .containerAbout {
     display: flex;
-    flex-flow: row wrap;
 }
 
 
 .profile {
     height: 50vh;
+
     justify-self: center;
-    align-self: center;
+    align-self: flex-end;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     
 }
 
 
 .content {
-    flex-grow: 1;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    margin: 50px 0;
+    margin-right: 50px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color: lightgrey;
+
 }
 
 
@@ -182,6 +193,11 @@ margin-left: 15vw;
     .skillCard svg {
         width: 85px;
     }
+
+.workCard {
+    width: 80%;
+}
+
     .skillCard {
         margin: 10px;
     }

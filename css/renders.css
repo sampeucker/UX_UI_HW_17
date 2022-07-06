@@ -33,7 +33,7 @@ a {
 
 
 .displayFull {
-    height: 90vh;
+    width: 80%;
     -webkit-backface-visibility: hidden;
     -ms-transform: translateZ(0);
     -webkit-transform: translateZ(0); 
