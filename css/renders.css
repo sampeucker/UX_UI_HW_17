@@ -1,5 +1,6 @@
-html, body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+html,
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-weight: 300;
     background-color: #16191A;
@@ -10,7 +11,7 @@ html, body {
     box-sizing: border-box;
 }
 
-.arrow  {
+.arrow {
     padding: 20px;
 }
 
@@ -23,7 +24,7 @@ a {
 }
 
 #renders {
-    margin: 20vh 20 vw !important; 
+    margin: 20vh 20 vw !important;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -53,24 +54,23 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    
+
 }
 
 .displayHalf {
     width: 500px;
     margin: 10px;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-transform: translateZ(0);
-    -webkit-transform: translateZ(0); 
+    -webkit-transform: translateZ(0);
     transform: translateZ(0);
     border-radius: 0.3rem;
 }
 
 .description {
-  padding-top: 2vh;
-  padding-bottom: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
 
-    
+
 }
-
-
