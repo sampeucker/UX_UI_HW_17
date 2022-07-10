@@ -81,13 +81,11 @@ h4 {
 }
 
 .fit {
-    height: 30vh;
+    height: 50vh;
+    border-radius: 2.3rem;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
-.fit2 {
-    width: 100%;
-}
     
 .divider {
     background-color: #EC1E79;
