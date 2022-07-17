@@ -94,3 +94,18 @@ h4 {
     margin: 10vh 0;
     width: auto;
 }
+
+.wireframeContainer {
+    width: 90vw;
+}
+
+.wireframe {
+    width: 100%;
+    border-radius: 0.3rem;
+    margin: 10px;
+}
+
+
+.prototype {
+    width: 100%;
+}
