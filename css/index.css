@@ -40,6 +40,7 @@
 #workBody {
     min-height: 100vh;
     padding-top: 50px;
+    margin-bottom: 10vh;
 }
 
 #workBody .quote {
@@ -156,7 +157,7 @@ margin: 50px;
     }
 
 #aboutBody {
-    padding-top: 13vh;
+    padding-top: 5vh;
     margin: 0 10%;
     min-height: 100vh;
 
@@ -164,6 +165,8 @@ margin: 50px;
 
 .containerAbout {
     display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
 
 }
 
@@ -179,13 +182,12 @@ border-radius: 0.3rem;
 
 
 .content {
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    line-height: 28px;
-    letter-spacing: 0.005em;
+    line-height: 24px;
+    letter-spacing: 0.003em;
     text-align: center;
-    margin: 50px 0;
     margin-right: 50px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     color: lightgrey;
