@@ -196,7 +196,10 @@ border-radius: 0.3rem;
 }
 
 
-
+footer {
+    text-align: center;
+    margin: 25px;
+}
 
 /*-----------------------Other Properties---------------------*/
 
